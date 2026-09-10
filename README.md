@@ -5,7 +5,7 @@ ID: 700774183
 Course: CS5720 Neural Network and Deep Learning
 Semester: Fall 2026
 Assignment: Home Assignment 1
-Part II – Programming
+Programming
 1. Tensor Manipulations
 
 A random TensorFlow tensor of shape (4, 6) is created. Its rank and shape are calculated, and the tensor is reshaped to (2, 3, 4) and transposed to (3, 2, 4). Broadcasting is also demonstrated.
@@ -31,8 +31,6 @@ An MNIST neural network is trained for 5 epochs using TensorBoard logging.
 
 The training and validation accuracy and loss can be viewed using TensorBoard.
 
-
-Conclusion
 This assignment demonstrates fundamental neural-network concepts, TensorFlow tensor operations, loss functions, optimization using Adam and SGD, MNIST classification, and TensorBoard visualization.
 
 
