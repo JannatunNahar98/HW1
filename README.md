@@ -1,36 +1,77 @@
-Home Assignment 1
-
-Student Name: Jannatun Nahar
-ID: 700774183
-Course: CS5720 Neural Network and Deep Learning
-Semester: Fall 2026
-Assignment: Home Assignment 1
-Programming
-1. Tensor Manipulations
-
-A random TensorFlow tensor of shape (4, 6) is created. Its rank and shape are calculated, and the tensor is reshaped to (2, 3, 4) and transposed to (3, 2, 4). Broadcasting is also demonstrated.
-
-2. Loss Functions
-
-Mean Squared Error (MSE) and Categorical Cross-Entropy (CCE) are calculated for model predictions. The predictions are modified to demonstrate how the loss changes.
-
-A Matplotlib bar chart is used to compare the losses.
-
-3. MNIST with Adam and SGD
-
-The MNIST dataset is loaded and normalized. Two neural-network models are trained using:
-
-Adam optimizer
-SGD optimizer
-
-Their training and validation accuracy are compared using a graph.
-
-4. TensorBoard
-
-An MNIST neural network is trained for 5 epochs using TensorBoard logging.
-
-The training and validation accuracy and loss can be viewed using TensorBoard.
-
-This assignment demonstrates fundamental neural-network concepts, TensorFlow tensor operations, loss functions, optimization using Adam and SGD, MNIST classification, and TensorBoard visualization.
+# Home Assignment 1
 
 
+**Student Name:** Jannatun Nahar  
+**Student ID:** 700774183  
+
+
+---
+
+## Overview
+
+This repository contains the Python programming tasks completed for Home Assignment 1.
+
+The assignment covers TensorFlow tensor operations, loss functions, model training, and TensorBoard visualization.
+
+---
+
+## Assignment Tasks
+
+### 1. Tensor Manipulations
+
+This task demonstrates basic TensorFlow tensor operations, including:
+
+- Creating a random TensorFlow tensor
+- Finding the rank and shape of a tensor
+- Reshaping a tensor
+- Transposing a tensor
+- Demonstrating broadcasting
+
+The implementation is available in:
+
+`Task1.py`
+
+---
+
+### 2. Loss Functions
+
+This task demonstrates the calculation and comparison of different loss functions.
+
+The implementation includes:
+
+- Mean Squared Error (MSE)
+- Categorical Cross-Entropy (CCE)
+- Modified predictions to demonstrate how loss values change
+- A Matplotlib visualization comparing the losses
+
+The implementation is available in:
+
+`Task2.py`
+
+---
+
+### 3. Neural Network Model
+
+This task demonstrates the creation and training of a neural network model using TensorFlow/Keras.
+
+The implementation is available in:
+
+`Task3.py`
+
+---
+
+### 4. Model Training and TensorBoard
+
+This task demonstrates training a neural network model and monitoring the training process using TensorBoard.
+
+The implementation includes:
+
+- Model training
+- Training and validation accuracy
+- Training and validation loss
+- Learning-rate tracking
+- TensorBoard logging and visualization
+
+`Task4.py`
+
+---
